@@ -5,3 +5,12 @@
 # We expect fizzbuzz(5) to return "Buzz"
 # We expect fizzbuzz(15) to return "FizzBuzz"
 
+def fizzbuzz(num)
+  if num%3 == 0 && num%5 == 0
+    puts "FIZZBUZZ"
+  elsif num%3 == 0
+    puts "Fizz"
+  elsif num%5 == 0
+    puts "Buzz"
+  end
+end
